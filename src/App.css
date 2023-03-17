@@ -1,38 +1,203 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #decc71;
+  /* background-image: url(/public/wallpaper.jpg); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 2rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
+  margin-bottom: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.5;
+  max-width: 600px;
+}
+
+hr {
+  width: 100%;
+  margin: 2rem 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.blog-post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.blog-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  max-width: 400px;
+}
+
+.project img {
+  max-width: 300px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.project-details {
+  text-align: center;
+}
+
+.project-details h3 {
+  margin-top: 0;
+}
+
+.project-details p {
+  margin-bottom: 1rem;
+}
+
+.project-details a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.project-details a:hover {
+  background-color: #0062cc;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.projects li {
+  margin: 1rem;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.projects li:hover {
+  transform: scale(1.1);
+}
+
+.projects li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projects li h3 {
+  font-size: 1.5rem;
+  margin: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.certificate {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.certificate-image {
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  margin-right: 30px;
+}
+
+.certificate-content {
+  width: 60%;
+}
+
+.certificate-links {
+  margin-top: 10px;
+}
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }
