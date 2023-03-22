@@ -1,7 +1,20 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './App.css';
 
 function App() {
+	//sumber: https://stackoverflow.com/questions/4060004/calculate-age-given-the-birth-date-in-the-format-yyyymmdd
+	function getAge(dateString: string) {
+		let today = new Date();
+		let birthDate = new Date(dateString);
+		let age = today.getFullYear() - birthDate.getFullYear();
+		let m = today.getMonth() - birthDate.getMonth();
+		if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+			age--;
+		}
+		return age;
+	}	
+
 	return (
 		<>
 			<title>Portofolio</title>
@@ -20,10 +33,23 @@ function App() {
 				<main>
 					<img id="about" src="fotosaya.jpg" alt="Rafi Athallah" />
 					<h2>About Me</h2>
-					<p>Hi there! My name is Rafi Athallah I'm 16 years old and I'm a software engineer based in Pontianak, Indonesia. I have experience working with HTML, CSS, JavaScript, Typescript, Python, C#, and various web frameworks such as React and NextJS. I'm passionate about creating user-friendly that provide a great user experience. When I'm not coding, I enjoy playing game and go outside with my friends.</p>
+					<p>Hi there! My name is Rafi Athallah I'm {getAge("2006-05-26")} years old and I'm a software engineer based in Pontianak, Indonesia. I have experience working with HTML, CSS, JavaScript, Typescript, Python, C#, and various web frameworks such as ExpressJS and NextJS. I'm passionate about creating user-friendly that provide a great user experience. When I'm not coding, I enjoy playing game and go outside with my friends.</p>
 					<hr />
 					<h2>Projects</h2>
 					<div className="project-container">
+						<div className="project">
+							<div className="project-content">
+								<div className="project-image">
+									<img src="project/lemparbola.png" alt="Gambar Project" />
+								</div>
+								<div className="project-details">
+									<h3>Lempar Bola</h3>
+									<p>Lempar Bola is a recreation game called <i>Balls?</i> created by Dani. This game was made in Unity Engine and created at May 11th 2021</p>
+									<a href="/project/Bolav3.apk">Download game link (.APK)</a>
+								</div>
+							</div>
+						</div>
+
 						<div className="project">
 							<div className="project-content">
 								<div className="project-image">
@@ -49,7 +75,71 @@ function App() {
 								</div>
 							</div>
 						</div>
+
+						<div className="project">
+							<div className="project-content">
+								<div className="project-image">
+									<img src="project/raport.png" alt="Gambar Project" />
+								</div>
+								<div className="project-details">
+									<h3>Grade Report</h3>
+									<p>All my grade from 10th grade to 12th grade, this website was made in React and created at August 2nd 2022</p>
+									<a href="https://nilai-raport.netlify.app/">Website</a>
+								</div>
+							</div>
+						</div>
+
+						<div className="project">
+							<div className="project-content">
+								<div className="project-image">
+									<img src="project/soalkoding.png" alt="Gambar Project" />
+								</div>
+								<div className="project-details">
+									<h3>Soalkoding</h3>
+									<p>Soalkoding is a website to practice your programming skill by solving coding question, this project was made in NextJS, Prisma as ORM and created at August 17th 2022</p>
+									<a href="https://github.com/rafiathallah3/soalkoding">Github</a>
+								</div>
+							</div>
+						</div>
+
+						<div className="project">
+							<div className="project-content">
+								<div className="project-image">
+									<img src="project/brochess.png" alt="Gambar Project" />
+								</div>
+								<div className="project-details">
+									<h3>BroChess</h3>
+									<p>Brochess is a chess game but in roblox, this project was made in Roblox Studio and Typescript as the language and created at December 2nd 2022</p>
+									<a href="https://www.roblox.com/games/11738872153/BroChess">Game</a>
+								</div>
+							</div>
+						</div>
+
+						<div className="project">
+							<div className="project-content">
+								<div className="project-image">
+									<img src="project/otomatismakan.png" alt="Gambar Project" />
+								</div>
+								<div className="project-details">
+									<h3>Pet food automation</h3>
+									<p>Pet food automation is an arduino project that will drop a pet food into a bowl in a certain time. This was created at February 3rd 2023</p>
+									<a href="https://www.youtube.com/watch?v=zFCCdXAJvU0">Video</a>
+								</div>
+							</div>
+						</div>
 						
+						<div className="project">
+							<div className="project-content">
+								<div className="project-image">
+									<img src="project/calculator.jpg" alt="Gambar Project" />
+								</div>
+								<div className="project-details">
+									<h3>Calculator</h3>
+									<p>Calculator is fun arduino project that work like a normal calculator but bigger. This was created at February 5th 2023</p>
+									<a href="#">Unavailable for now</a>
+								</div>
+							</div>
+						</div>
 					</div>
 					{/* <h2 id="project">Projects</h2>
 					<ul className="projects">
