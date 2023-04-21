@@ -97,19 +97,6 @@ function App() {
 							</div>
 						</div>
 
-						{/* <div className="project">
-							<div className="project-content">
-								<div className="project-image">
-									<img src="project/soalkoding.png" alt="Gambar Project" />
-								</div>
-								<div className="project-details">
-									<h3>Soalkoding</h3>
-									<p>Soalkoding is a website to practice your programming skill by solving coding question, this project was made in NextJS, Prisma as ORM and created at August 17th 2022</p>
-									<a href="https://github.com/rafiathallah3/soalkoding">Github</a>
-								</div>
-							</div>
-						</div> */}
-
 						<div className="project">
 							<div className="project-content">
 								<div className="project-image">
@@ -145,6 +132,19 @@ function App() {
 									<h3>Calculator</h3>
 									<p>Calculator is fun arduino project that work like a normal calculator but bigger. This was created at February 5th 2023</p>
 									<a href="#">Unavailable for now</a>
+								</div>
+							</div>
+						</div>
+
+						<div className="project">
+							<div className="project-content">
+								<div className="project-image">
+									<img src="project/soalkoding.png" alt="Gambar Project" />
+								</div>
+								<div className="project-details">
+									<h3>Soalkoding</h3>
+									<p>Soalkoding is a website to practice your programming skill by solving coding question, this project was made in NextJS, MongoDB and created at August 17th 2022 and finished at 22nd April 2023</p>
+									<a href="https://github.com/rafiathallah3/soalkoding">Github</a>
 								</div>
 							</div>
 						</div>
