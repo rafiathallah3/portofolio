@@ -34,7 +34,7 @@ function App() {
 				<main>
 					<img id="about" src="fotosaya.jpg" alt="Rafi Athallah" />
 					<h2>About Me</h2>
-					<p>Hi there! My name is Rafi Athallah I'm {getAge("2006-05-26")} years old and I'm a software engineer based in Pontianak, Indonesia. I have experience working with HTML, CSS, JavaScript, Typescript, Python, C#, and various web frameworks such as React and NextJS. I'm passionate about creating user-friendly that provide a great user experience. When I'm not coding, I enjoy playing game and go outside with my friends.</p>
+					<p>Hi there! My name is Rafi Athallah I'm {getAge("2006-05-26")} years old and I'm a software engineer based in Pontianak, Indonesia. I have experience working with HTML, CSS, JavaScript, Typescript, Python, C#, and various web frameworks such as React and NextJS. I'm passionate about creating user-friendly that provide a great user experience. When I'm not coding, I enjoy playing game, you can see my CV <a href='/project/cv.pdf'>here!</a></p>
 					<br />
 					<div>
 						<a className='SocialMedia' style={{ color: "#171515" }} href="https://github.com/rafiathallah3" target="_blank" rel="noreferrer"><FaGithub /></a>
