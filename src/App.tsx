@@ -214,6 +214,11 @@ function App() {
 									<img src="sertifikat/SL_PythonIntermediate.png" className='certificate-image' alt="Gambar Sertifikat"/>
 								</div>
 							</div>
+							<div className="certificate">
+								<div className="certificate-image">
+									<img src="sertifikat/Harvard_WebProgramming.png" className='certificate-image' alt="Gambar Sertifikat"/>
+								</div>
+							</div>
 						</div>
 					</section>
 					{/* <hr />
