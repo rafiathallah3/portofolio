@@ -52,7 +52,7 @@ function App() {
 								</div>
 								<div className="project-details">
 									<h3>Lempar Bola</h3>
-									<p>Lempar Bola is a recreation game called <i>Balls?</i> created by Dani. This game was made in Unity Engine and created at May 11th 2021</p>
+									<p>Lempar Bola is a recreation game called <i>Balls?</i> created by Dani. This game was made in Unity Engine and created on May 11th 2021</p>
 									<a href="/project/Bolav3.apk">Download game link (.APK)</a>
 								</div>
 							</div>
@@ -65,7 +65,7 @@ function App() {
 								</div>
 								<div className="project-details">
 									<h3>Auto Clicker</h3>
-									<p>Auto clicker is to automate the clicking using python, this project was made in python and created at Janury 5th 2022</p>
+									<p>Auto clicker is to automate the clicking using python, this project was made in python and created on Janury 5th 2022</p>
 									<a href="https://github.com/rafiathallah3/Membuat-Auto-clicker">Github</a>
 								</div>
 							</div>
@@ -78,7 +78,7 @@ function App() {
 								</div>
 								<div className="project-details">
 									<h3>Macro Recorder</h3>
-									<p>Macro recorder is to records macros for playback at a later time, this project was made in python and created at February 3th 2022</p>
+									<p>Macro recorder is to records macros for playback at a later time, this project was made in python and created on February 3th 2022</p>
 									<a href="https://github.com/rafiathallah3/Membuat-Macro-Recorder">Github</a>
 								</div>
 							</div>
@@ -91,7 +91,7 @@ function App() {
 								</div>
 								<div className="project-details">
 									<h3>Grade Report</h3>
-									<p>All my grade from 10th grade to 12th grade, this website was made in React and created at August 2nd 2022</p>
+									<p>All my grade from 10th grade to 12th grade, this website was made in React and created on August 2nd 2022</p>
 									<a href="https://nilai-raport.netlify.app/">Website</a>
 								</div>
 							</div>
@@ -104,7 +104,7 @@ function App() {
 								</div>
 								<div className="project-details">
 									<h3>BroChess</h3>
-									<p>Brochess is a chess game but in roblox, this project was made in Roblox Studio and Typescript as the language and created at December 2nd 2022</p>
+									<p>Brochess is a chess game but in roblox, this project was made in Roblox Studio and Typescript as the language and created on December 2nd 2022</p>
 									<a href="https://www.roblox.com/games/11738872153/BroChess">Game</a>
 								</div>
 							</div>
@@ -117,7 +117,7 @@ function App() {
 								</div>
 								<div className="project-details">
 									<h3>Pet food automation</h3>
-									<p>Pet food automation is an arduino project that will drop a pet food into a bowl in a certain time. This was created at February 3rd 2023</p>
+									<p>Pet food automation is an arduino project that will drop a pet food into a bowl in a certain time. This was created on February 3rd 2023</p>
 									<a href="https://www.youtube.com/watch?v=zFCCdXAJvU0">Video</a>
 								</div>
 							</div>
@@ -130,7 +130,7 @@ function App() {
 								</div>
 								<div className="project-details">
 									<h3>Calculator</h3>
-									<p>Calculator is fun arduino project that work like a normal calculator but bigger. This was created at February 5th 2023</p>
+									<p>Calculator is fun arduino project that work like a normal calculator but bigger. This was created on February 5th 2023</p>
 									<a href="#">Unavailable for now</a>
 								</div>
 							</div>
@@ -143,8 +143,34 @@ function App() {
 								</div>
 								<div className="project-details">
 									<h3>Soalkoding</h3>
-									<p>Soalkoding is a website to practice your programming skill by solving coding question, this project was made in NextJS, MongoDB and created at August 17th 2022 and finished at 22nd April 2023</p>
+									<p>Soalkoding is a website to practice your programming skill by solving coding question, this project was made in NextJS, MongoDB and started on August 17th 2022 and finished on 22nd April 2023</p>
 									<a href="https://github.com/rafiathallah3/soalkoding">Github</a>
+								</div>
+							</div>
+						</div>
+
+						<div className="project">
+							<div className="project-content">
+								<div className="project-image">
+									<img src="project/gambarLaserBlitz.png" alt="Gambar Project" />
+								</div>
+								<div className="project-details">
+									<h3>Laser Blitz</h3>
+									<p>Laser Blitz is a puzzle game that require the laser to reach the target to get into next level, this game was made in Unity Engine and created on June 17th 2023</p>
+									<a href="/project/Bolav3.apk/LaserBlits.apk">Download game link (.APK)</a>
+								</div>
+							</div>
+						</div>
+
+						<div className="project">
+							<div className="project-content">
+								<div className="project-image">
+									<img src="project/gambarOSR.png" alt="Gambar Project" />
+								</div>
+								<div className="project-details">
+									<h3>OSR (Open Source Recorder)</h3>
+									<p>OSR (Open Source Recorder) is a screen recorder that can have an audio desktop, it can use shortcut such as CTRL+F1 to start or stop recording, this project was made in Electron and Typescript on June 30th 2023</p>
+									<a href="https://github.com/rafiathallah3/Screen-Recorder">Github</a>
 								</div>
 							</div>
 						</div>
