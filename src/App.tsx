@@ -152,6 +152,19 @@ function App() {
 						<div className="project">
 							<div className="project-content">
 								<div className="project-image">
+									<img src="project/surat.png" alt="Gambar Project" />
+								</div>
+								<div className="project-details">
+									<h3>Auto Generated Holy Quran Chapter</h3>
+									<p>This project generate holy quran video with sound, background and translation text, it was made in Python using MoviePy and created on June 13 2023</p>
+									<a href="https://github.com/rafiathallah3/soalkoding">Github</a>
+								</div>
+							</div>
+						</div>
+
+						<div className="project">
+							<div className="project-content">
+								<div className="project-image">
 									<img src="project/gambarLaserBlitz.png" alt="Gambar Project" />
 								</div>
 								<div className="project-details">
