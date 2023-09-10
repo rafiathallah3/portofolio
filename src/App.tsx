@@ -162,7 +162,7 @@ function App() {
 							</div>
 						</div>
 
-						<div className="project">
+						{/* <div className="project">
 							<div className="project-content">
 								<div className="project-image">
 									<img src="project/gambarLaserBlitz.png" alt="Gambar Project" />
@@ -171,6 +171,19 @@ function App() {
 									<h3>Laser Blitz</h3>
 									<p>Laser Blitz is a puzzle game that require the laser to reach the target to get into next level, this game was made in Unity Engine and created on June 17th 2023</p>
 									<a href="/project/Bolav3.apk/LaserBlits.apk">Download game link (.APK)</a>
+								</div>
+							</div>
+						</div> */}
+
+						<div className="project">
+							<div className="project-content">
+								<div className="project-image">
+									<img src="project/gambarOSR.png" alt="Gambar Project" />
+								</div>
+								<div className="project-details">
+									<h3>OSR (Open Source Recorder)</h3>
+									<p>OSR (Open Source Recorder) is a screen recorder that can have an audio desktop, it can use shortcut such as CTRL+F1 to start or stop recording, this project was made in Electron and Typescript on June 30th 2023</p>
+									<a href="https://github.com/rafiathallah3/Screen-Recorder">Github</a>
 								</div>
 							</div>
 						</div>
@@ -187,28 +200,20 @@ function App() {
 								</div>
 							</div>
 						</div>
+
+						<div className="project">
+							<div className="project-content">
+								<div className="project-image">
+									<img src="project/rumah_listrik.jpg" style={{ objectFit: "cover" }} alt="Gambar Project" />
+								</div>
+								<div className="project-details">
+									<h3>House with Arduino</h3>
+									<p>School physics project that is making a house with electricity, I use arduino for the electricity including turning on LED using remote control, I'm the one who made the electricity and my group who made the house, this was made on August 28th 2023. You can see me explaining but its in Indonesia language</p>
+									<a href="https://www.youtube.com/watch?v=7quzAwuzsN0">Video</a>
+								</div>
+							</div>
+						</div>
 					</div>
-					{/* <h2 id="project">Projects</h2>
-					<ul className="projects">
-						<li>
-							<a href="#">
-							<img src="project1.jpg" alt="Project 1" />
-							<h3>Project 1</h3>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-							<img src="project2.jpg" alt="Project 2" />
-							<h3>Project 2</h3>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-							<img src="project3.jpg" alt="Project 3" />
-							<h3>Project 3</h3>
-							</a>
-						</li>
-					</ul> */}
 					<hr/>
 					<h2 id="sertifikat">Certificates</h2>
 					<section id="certificates">
@@ -256,6 +261,11 @@ function App() {
 							<div className="certificate">
 								<div className="certificate-image">
 									<img src="sertifikat/Harvard_WebProgramming.png" className='certificate-image' alt="Gambar Sertifikat"/>
+								</div>
+							</div>
+							<div className="certificate">
+								<div className="certificate-image">
+									<img src="sertifikat/Harvard_ComputerScience.png" className='certificate-image' alt="Gambar Sertifikat"/>
 								</div>
 							</div>
 						</div>
