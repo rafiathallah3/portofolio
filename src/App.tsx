@@ -208,7 +208,7 @@ function App() {
 								</div>
 								<div className="project-details">
 									<h3>Gon Web Framework</h3>
-									<p>Gon is a simple web framework for Golang, this project was made in Electron and Typescript on June 30th 2023</p>
+									<p>Gon is a simple web framework for Golang, this project was made in Golang on October 8th 2023</p>
 									<a href="https://github.com/rafiathallah3/Gon">Github</a>
 								</div>
 							</div>
