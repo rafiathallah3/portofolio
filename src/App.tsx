@@ -188,7 +188,7 @@ function App() {
 							</div>
 						</div>
 
-						<div className="project">
+						{/* <div className="project">
 							<div className="project-content">
 								<div className="project-image">
 									<img src="project/rumah_listrik.jpg" style={{ objectFit: "cover" }} alt="Gambar Project" />
@@ -199,7 +199,7 @@ function App() {
 									<a href="https://www.youtube.com/watch?v=7quzAwuzsN0">Video</a>
 								</div>
 							</div>
-						</div>
+						</div> */}
 
 						<div className="project">
 							<div className="project-content">
