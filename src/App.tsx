@@ -284,6 +284,16 @@ function App() {
 									<img src="sertifikat/dicoding_basic.png" className='certificate-image' alt="Gambar Sertifikat"/>
 								</div>
 							</div>
+							<div className="certificate">
+								<div className="certificate-image">
+									<img src="sertifikat/iasc2023_peserta.png" className='certificate-image' alt="Gambar Sertifikat"/>
+								</div>
+							</div>
+							<div className="certificate">
+								<div className="certificate-image">
+									<img src="sertifikat/iasc2023_emas.png" className='certificate-image' alt="Gambar Sertifikat"/>
+								</div>
+							</div>
 						</div>
 					</section>
 					{/* <hr />
