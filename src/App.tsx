@@ -1,9 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaGithub, FaInstagram, FaYoutube } from 'react-icons/fa';
 import './App.css';
 
 function App() {
+	useEffect(() => {
+		document.title = "Rafi Athallah";
+	})
+
 	//sumber: https://stackoverflow.com/questions/4060004/calculate-age-given-the-birth-date-in-the-format-yyyymmdd
 	function getAge(dateString: string) {
 		let today = new Date();
@@ -38,7 +42,7 @@ function App() {
 					<br />
 					<div>
 						<a className='SocialMedia' style={{ color: "#171515" }} href="https://github.com/rafiathallah3" target="_blank" rel="noreferrer"><FaGithub /></a>
-						<a className='SocialMedia' style={{ color: "purple" }} href="https://www.instagram.com/dhyrbfy/" target="_blank" rel="noreferrer"><FaInstagram /></a>
+						<a className='SocialMedia' style={{ color: "purple" }} href="https://www.instagram.com/rafi._athallah/" target="_blank" rel="noreferrer"><FaInstagram /></a>
 						<a className='SocialMedia' style={{ color: "red" }} href="https://www.youtube.com/channel/UCjvN4chMZcwe0mMPKVDoWoA/" target="_blank" rel="noreferrer"><FaYoutube /></a>
 					</div>
 
@@ -214,6 +218,19 @@ function App() {
 							</div>
 						</div>
 
+						<div className="project">
+							<div className="project-content">
+								<div className="project-image">
+									<img src="project/HorizonTalk.png" alt="Gambar Project" />
+								</div>
+								<div className="project-details">
+									<h3>Horizon Talk</h3>
+									<p>Horizon Talk is a website that communicate between people, using my framework Gon and other technologies such as, Websocket and RTCPeerConnection. This project was made on December 19th 2023</p>
+									<a href="https://github.com/rafiathallah3/HorizonTalk">Github</a>
+								</div>
+							</div>
+						</div>
+
 					</div>
 					<hr/>
 					<h2 id="sertifikat">Certificates</h2>
@@ -292,6 +309,11 @@ function App() {
 							<div className="certificate">
 								<div className="certificate-image">
 									<img src="sertifikat/iasc2023_emas.png" className='certificate-image' alt="Gambar Sertifikat"/>
+								</div>
+							</div>
+							<div className="certificate">
+								<div className="certificate-image">
+									<img src="sertifikat/ostn2023_emas.jpg" className='certificate-image' alt="Gambar Sertifikat"/>
 								</div>
 							</div>
 						</div>
