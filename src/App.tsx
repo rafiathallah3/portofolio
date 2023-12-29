@@ -316,6 +316,11 @@ function App() {
 									<img src="sertifikat/ostn2023_emas.jpg" className='certificate-image' alt="Gambar Sertifikat"/>
 								</div>
 							</div>
+							<div className="certificate">
+								<div className="certificate-image">
+									<img src="sertifikat/LPSI2023_informatika.jpg" className='certificate-image' alt="Gambar Sertifikat"/>
+								</div>
+							</div>
 						</div>
 					</section>
 					{/* <hr />
