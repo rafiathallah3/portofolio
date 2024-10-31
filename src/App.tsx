@@ -231,6 +231,18 @@ function App() {
 							</div>
 						</div>
 
+						<div className="project">
+							<div className="project-content">
+								<div className="project-image">
+									<img src="project/Persona.png" alt="Gambar Project" />
+								</div>
+								<div className="project-details">
+									<h3>Persona</h3>
+									<p>Persona is a website that can chat with AI, this projec was made in Golang using Gin as the Web Framework and Gemini for the AI Chat Model.</p>
+								</div>
+							</div>
+						</div>
+
 					</div>
 					<hr/>
 					<h2 id="sertifikat">Certificates</h2>
